@@ -1,8 +1,8 @@
-version: '3'
+version: "3"
 services:
   node-docker:
     build: .
     ports:
-      - '3000:3000'
+      - "3000:4000"
     environment:
-      - PORT=3000
+      - PORT=4000
